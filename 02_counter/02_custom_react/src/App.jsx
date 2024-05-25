@@ -6,7 +6,16 @@ import './App.css'
 function App() {
   let [count, setCount] = useState(0)
   const increment= ()=>{
-    setCount(count+1);
+    // interview question
+    // setCount(count+1)
+    // setCount(count+1)
+    // setCount(count+1)
+    // setCount(count+1)
+    setCount(prevCounter => prevCounter + 1)
+    setCount(prevCounter => prevCounter + 1)
+    setCount(prevCounter => prevCounter + 1 )
+    setCount(prevCounter => prevCounter + 1)
+    setCount(prevCounter => prevCounter + 1)
   }
   const decrement = () => {
     if(count>0){
